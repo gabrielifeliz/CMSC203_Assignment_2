@@ -6,6 +6,7 @@ Topics:
 - Console Input/Output
 - Constants
 - Conditions (```if```-```else```)
+- Loops (```while```, ```do```-```while```)
 - Static Methods
 - Objects
 - Data Structures
