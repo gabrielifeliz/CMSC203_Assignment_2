@@ -254,8 +254,7 @@ public class Ticket {
 	 * @return The notice to be sent to the speeder
 	 */
 	public String printNotice() {
-
-		return "Department of Motor Vehicles\n" +
+		String notice = "Department of Motor Vehicles\n" +
 				"Automated Traffic Enforcement\n" +
 				"\n" +
 				"\n" +
@@ -273,6 +272,7 @@ public class Ticket {
 				"\n" +
 				"Sincerely, \n" +
 				"Gabriel I Feliz ";
+		return calculateFine() > 0.00 ? notice : "";
 	}
 
 	/**
